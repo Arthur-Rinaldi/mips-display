@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testebench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="mito_pkg" />
+            <top_module name="testebench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="802768000fs"></ZoomStartTime>
+      <ZoomEndTime time="1004368001fs"></ZoomEndTime>
+      <Cursor1Time time="963368000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="168"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/testebench/reset_s" type="logic">
+      <obj_property name="ElementShortName">reset_s</obj_property>
+      <obj_property name="ObjectShortName">reset_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/pc_enable" type="logic">
+      <obj_property name="ElementShortName">pc_enable</obj_property>
+      <obj_property name="ObjectShortName">pc_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/memory_i/adress_pc" type="array">
+      <obj_property name="ElementShortName">adress_pc[8:0]</obj_property>
+      <obj_property name="ObjectShortName">adress_pc[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/reg0" type="array">
+      <obj_property name="ElementShortName">reg0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg0[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/reg1" type="array">
+      <obj_property name="ElementShortName">reg1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/reg2" type="array">
+      <obj_property name="ElementShortName">reg2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/reg3" type="array">
+      <obj_property name="ElementShortName">reg3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/reg15" type="array">
+      <obj_property name="ElementShortName">reg15[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg15[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/clk_s" type="logic">
+      <obj_property name="ElementShortName">clk_s</obj_property>
+      <obj_property name="ObjectShortName">clk_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/memory_i/mem[508]" type="array">
+      <obj_property name="ElementShortName">[508][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[508][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/memory_i/mem[509]" type="array">
+      <obj_property name="ElementShortName">[509][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[509][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/memory_i/mem[510]" type="array">
+      <obj_property name="ElementShortName">[510][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[510][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/memory_i/mem[511]" type="array">
+      <obj_property name="ElementShortName">[511][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[511][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/decoded_inst" type="other">
+      <obj_property name="ElementShortName">decoded_inst</obj_property>
+      <obj_property name="ObjectShortName">decoded_inst</obj_property>
+   </wvobject>
+</wave_config>

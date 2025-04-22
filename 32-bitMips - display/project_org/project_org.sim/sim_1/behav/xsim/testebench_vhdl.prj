@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl mito  \
+"../../../../project_org.srcs/sources_1/new/mito_pkg.vhd" \
+"../../../../project_org.srcs/sources_1/new/control_unit.vhd" \
+"../../../../project_org.srcs/sources_1/new/data_path.vhd" \
+
+vhdl oi  \
+"../../../../project_org.srcs/sources_1/new/display_driver_i.vhd" \
+
+vhdl mito  \
+"../../../../project_org.srcs/sources_1/new/memory.vhd" \
+"../../../../project_org.srcs/sources_1/new/miTo.vhd" \
+"../../../../project_org.srcs/sim_1/new/testebench.vhd" \
+
+# Do not sort compile order
+nosort
